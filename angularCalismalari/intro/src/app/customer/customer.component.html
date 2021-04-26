@@ -1,0 +1,9 @@
+<ul>
+    <div *ngFor="let customer of customers"  (click)="selectCustomer(customer)">
+        <li>
+            <strong >{{customer.firstName}}  {{customer.lastName}}</strong> 
+        </li>
+    </div>
+</ul>
+
+<strong *ngIf="selectedCustomer">{{selectedCustomer.firstName}} seçtiniz</strong>

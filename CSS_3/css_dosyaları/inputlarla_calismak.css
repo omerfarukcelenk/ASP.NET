@@ -1,0 +1,30 @@
+input[type=text],input[type=password]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid green;
+    color: white;
+    background-color: #3CBC8D;
+}
+
+input[type=text]:focus,input[type=password]:focus{
+    background-color: lightblue;
+}
+
+input[type=text]:hover,input[type=password]:hover{
+    background-color: lightpink;
+}
+
+
+.myClass{
+    color: red;
+    background-color: blue;
+}
+
+p.someClass{
+    color: white;
+    background-color: blue;
+}
+
+#e-mail{
+    background-color: black;
+}
